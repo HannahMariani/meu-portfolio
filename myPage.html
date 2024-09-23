@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f3eba7;">
+
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Minha Página Web</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="my-5">
+        
+        <section class="container mb-5" style="background-color: #b2e7ac;">
+            <h2 class="text-center">HTML</h2>
+            <p class="text-center">HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de
+                Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML
+                podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+        </section>
+
+        <section class="container rounded mb-5" style="background-color: #cae9c6;">
+            <h2 class="text-center">CSS</h2>
+            <p class="text-center">Cascading Style Sheets (abreviado CSS) é um mecanismo para adicionar estilos (cores, fontes,
+                espaçamento, etc.) a uma página web,aplicado diretamente nas tags HTML ou ficar contido dentro das tags. Também é possível,
+                    adicionar estilos adicionando um link para um arquivo CSS que contém os estilos. Assim,
+                    quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS,
+                    basta modifica-lo.</p>
+        </section>
+
+        <section class="container mb-5"style="background-color: #b2e7ac;">
+            <h2 class="text-center">Bootstrap</h2>
+            <p class="text-center">Bootstrap (anteriormente Twitter Bootstrap ) é um framework CSS gratuito e de código aberto direcionado ao desenvolvimento web front-end responsivo e mobile-first . Ele contém modelos de design baseados em HTML , CSS e (opcionalmente) JavaScript para tipografia , formulários , botões , navegação e outros componentes de interface.</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="year"></span> Hannah Mariani. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    
+</body>
+</html>
